@@ -20,6 +20,7 @@ public class FunctionLib {
 	protected double divideData(int x, int y) {
 		System.out.println("Division of "+ x+" & "+y+" = "+(x/y));
 		return x/y;
+		
 	}
 	
 	protected int subtractData(int x, int y) {
