@@ -11,6 +11,7 @@ public class Sample {
 		funLib.subtractData(5, 1);
 		funLib.muliplyData(5, 1);
 		funLib.divideData(15, 5);
+		System.out.println("**************Execution Terminated**************");
 	}
 
 }
