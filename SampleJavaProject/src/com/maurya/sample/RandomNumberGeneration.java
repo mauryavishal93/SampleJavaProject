@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class RandomNumberGeneration {
 
-	public static String strCatlog1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz";
-	public static String strCatlog = "1234567890";
+	public static String strCatlog = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abcdefghijklmnopqrstuvwxyz";
+	public static String strCatlog1 = "1234567890";
 	protected String getRandomString(String chars, int size) {
         StringBuilder strBuilder = new StringBuilder();
         Random random = new Random();
